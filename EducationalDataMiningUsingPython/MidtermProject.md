@@ -1,3 +1,4 @@
+## Midterm Project
 First, I introduce the csv dataset. It is important to know the meaning of each column in the dataset, but the column index name only shows the short word of each column. So I used Chinese to explain the meaning and the type of each column. I will focus on what is the relationship between alcohol consumption and grades? <br>
 The column ‘Alc’ represents the student’s weekly alcohol consumption, which is calculated by adding ‘Dalc’ (daily alcohol consumption) and ‘Walc’ (weekend alcohol consumption). The column ‘G1’, ‘G2’, and ‘G3’ represent the student’s grades in the first, second, and third period, respectively. <br>
 To make the grades of every period test comparable, I transformed them into z-scores, which indicate how many standard deviations the grade is above or below the mean. This way, we can intuitively see the distribution of grades. <br>
