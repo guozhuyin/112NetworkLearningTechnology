@@ -21,3 +21,9 @@ isnull()也檢查了資料集是否有缺失值，結果發現資料集是完整
 ### Machine Learning
 Random Forest Classifier：使用了隨機森林分類器來預測學生是否接受免費或減價午餐，並使用了數學成績和平均總成績作為特徵。的預測準確率為x%，F1-score為x%。混淆矩陣顯示，有x個學生被錯誤地分類為接受免費或減價午餐，有36個學生被錯誤地分類為不接受免費或減價午餐。
 Linear Regression：也使用了線性回歸來預測平均總成績，並使用了除了成績以外的特徵，如性別、種族、父母教育程度等。的預測均方誤差為x，R-squared為x。散點圖顯示，預測值與真實值之間有一定的線性關係，但也有一些離群值，表示模型還有改進的空間。
+
+### Conclusion
+1. We found that students with parents who have a bachelor's degree or above have higher average total scores.
+2. We found that students in group E have higher average total scores.
+3. We found that students with free/reduced lunch have lower average total scores.
+4. We found that lunch costs affect students' average total scores, and students' scores are also related with other features.
