@@ -8,7 +8,7 @@ Finally, it is use the ‘df.corr()’ function to calculate the correlation coe
 
 ## Final Project
 ### Machine Learning
-According to the above, used two machine learning models, random forest classifier and linear regression, to predict the student’s lunch and average total score. You can see the ouput directly in this notebook. <br>
+According to the above, we decided to use two machine learning models, random forest classifier and linear regression, to predict the student’s lunch and average total score. You can see the ouput directly in this notebook. <br>
 First, We used the lunch variable as the target, and the math score and average total score as the features. The accuracy of the model is 63%, and the F1-score is 73%. The confusion matrix shows that there are 51 students who are wrongly classified as having free/reduced lunch, and 59 students who are wrongly classified as having standard lunch. <br>
 Then, we used the linear regression to predict the average total score. We used the average total score as the target, and the excluded any scores variables as the features. The mean squared error of the model is 77.63, and the R-squared is 0.64. The scatter plot shows that there appears to be a linear relationship between the predicted values and the true values, but there are also some outliers, indicating that the model can be improved. <br>
 ### Conclusion
